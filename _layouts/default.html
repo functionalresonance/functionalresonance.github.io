@@ -20,9 +20,9 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <div style="display: flex">
+          <div class="inline_header">
             <img src="/assets/images/FRAM_icon_1.svg" alt="FRAM" width="120" height="120">
-            <h1><i>the </i>{{ site.title | default: site.github.repository_name }}</h1>
+            <i>the </i><h1>{{ site.title | default: site.github.repository_name }}</h1>
           </div>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
