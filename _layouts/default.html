@@ -15,8 +15,6 @@
   <body>
 <div class="container-fluid">
   <div class="row flex-nowrap">
-    {% include sidebar.html %}
-    <div class="col py-3">
 
       <!-- HEADER -->
       <div id="header_wrap" class="outer">
@@ -29,7 +27,8 @@
       </div>
 
       <!-- MAIN CONTENT -->
-      {% include nav.html %}
+    {% include sidebar.html %}
+    <div class="col py-3">
       <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
           {{ content }}
