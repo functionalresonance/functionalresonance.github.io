@@ -1,3 +1,12 @@
-## Welcome to the test site
+## FRAM - the FUNCTIONAL RESONANCE ANALYSIS METHOD
+### for modelling non-trivial socio-technical systems
 
-This is an example using markdown and **GitHub** pages
+**THE DESIGN**, management, and analysis of work tacitly assumes that we know how things are done or should be done. Since humans – and organisations – are supposed to follow procedures, rules, and guidelines, the planning and management of work, including accident investigation and risk assessment, assume that compliance is the norm. The purpose of safety analyses, for instance, is to understand why the outcome of an action or a series of actions (an activity, an operation) was unacceptable (adverse) rather than acceptable (successful) – as in event investigation – or how that could possibly happen in the future – as in risk assessment.
+
+#### IN REALITY  
+work is never completely regular or orderly, except in very special cases. It is therefore inadvisable to assume that work is as we imagine and that compliance guarantees success. Work-as-done (WAD) will always be different from work-as-imagined (WAI) because it is impossible to know in advance what the actual conditions of work will be, not least what the demands and the resources will be. It is therefore also impossible to provide guidelines or instructions that are detailed enough to be followed ‘mechanically.’ An analysis of how a system functions and of how work activities are carried out must therefore begin by establishing how work is actually done and how everyday performance takes place. It is in particular important to understand how things go right as a prerequisite for understanding what has or could go wrong.
+
+### THE REASON  
+why everyday performance nevertheless in most cases goes right is that people – and organisations – know or have learned to adjust what they do to match the actual conditions, resources, and constraints - for instance by trading off efficiency and thoroughness. The adjustments are ubiquitous and generally useful. But the very reasons that make them necessary also means that they will be approximate rather than precise. Approximate adjustments are the reason why things usually go right, but by the same token also the reason why things occasionally go wrong. Things do not generally go wrong because of outright failures, mistakes, or violations. They rather go wrong because the variability of everyday performance aggregates in an unexpected manner. This is captured by the principle functional resonance that is the basis for the FRAM.
+
+
