@@ -6,8 +6,9 @@ h1, h2, h3, h4, h5, h6 {
   color:#800000;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
-h1 {
-  font-size: 42px;
+strong {
+  color: #800000;
+  font-size: larger;
 }
 .inline_header {
   display: flex;
@@ -17,7 +18,7 @@ h1 {
   border: none;
 }
 #header_wrap {
-  background: #F1F3F4;
+  background: #800000;
 }
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;

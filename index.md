@@ -1,5 +1,4 @@
-## FRAM - the FUNCTIONAL RESONANCE ANALYSIS METHOD
-### for modelling non-trivial socio-technical systems
+## FRAM - the FUNCTIONAL RESONANCE ANALYSIS METHOD for modelling non-trivial socio-technical systems
 
 **THE DESIGN**, management, and analysis of work tacitly assumes that we know how things are done or should be done. Since humans – and organisations – are supposed to follow procedures, rules, and guidelines, the planning and management of work, including accident investigation and risk assessment, assume that compliance is the norm. The purpose of safety analyses, for instance, is to understand why the outcome of an action or a series of actions (an activity, an operation) was unacceptable (adverse) rather than acceptable (successful) – as in event investigation – or how that could possibly happen in the future – as in risk assessment.
 
