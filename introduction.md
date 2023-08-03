@@ -1,4 +1,4 @@
-## A brief introduction to the FRAM
+## A Brief Introduction to the FRAM
 
 The understanding of the human role in accidents has gone through three stages.
 - In the classical view, humans were seen as error prone or as fallible machines. The purpose of an accident investigation was therefore often to find the "human error" that either was the primary (or even "root") cause or the initiating event.

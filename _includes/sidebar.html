@@ -9,5 +9,16 @@
         </ul>
         <a class="nav-link {% if page.name == 'principles.md' %}active{% endif %}" href="/principles.html">Basic Principles</a>
         <a class="nav-link {% if page.name == 'how_to_build.md' %}active{% endif %}" href="/how_to_build.html">How to Build a FRAM model</a>
+        <ul class="collapse {% if page.name contains 'how_to_build' %}show{% endif %} nav flex-column ms-1" >
+            <li>
+                <a class="nav-link {% if page.name == 'how_to_build-retro.md' %}active{% endif %}" href="/how_to_build-retro.html"> &bullet; Retrospective analysis</a>
+            </li>
+            <li>
+                <a class="nav-link {% if page.name == 'how_to_build-pro.md' %}active{% endif %}" href="/how_to_build-pro.html"> &bullet; Prospective analysis</a>
+            </li>
+            <li>
+                <a class="nav-link {% if page.name == 'how_to_build-design.md' %}active{% endif %}" href="/how_to_build-design.html"> &bullet; Design analysis</a>
+            </li>
+        </ul>
     </nav>
   </div>
