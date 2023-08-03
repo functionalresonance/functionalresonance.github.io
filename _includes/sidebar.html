@@ -23,5 +23,10 @@
                 <a class="nav-link {% if page.name == 'how_to_build-right.md' %}active{% endif %}" href="/how_to_build-right.html"> &bullet; Finding what goes Right</a>
             </li>
         </ul>
+
+        {% for page in site.pages %}
+            <p>{{ page.name }}</p>
+        {% endfor %}
+
     </nav>
   </div>
