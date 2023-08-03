@@ -26,6 +26,9 @@
 
         {% for listpage in site.pages %}
             <p>{{ listpage.name }}</p>
+            {% if listpage.name contains ".md" %}
+                <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html">{{ listpage.name }}</a>
+            {% endif %}
         {% endfor %}
 
     </nav>
