@@ -14,8 +14,8 @@
                 {% else %}
                 <p>{{ listpage.name }}</p>
                 <p>{{ page.name | remove: ".md" }}</p>
-                <p>{{ page.name | split "~" | first }}</p>
-                <p>{{ page.name | split "~" | first | remove: ".md" }}</p>
+                <p>{{ page.name | split: "~" | first }}</p>
+                <p>{{ page.name | split: "~" | first | remove: ".md" }}</p>
                 {% endunless %}
             {% endif %}
 
