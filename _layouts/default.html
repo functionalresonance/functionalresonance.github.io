@@ -27,14 +27,31 @@
   <div class="d-flex">
     <div class="col-12 col-sm-3 col-xl-2">
       <nav class="nav flex-column nav-pills sticky-top">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <ul class="nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
       </nav>
     </div>
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer col-12 col-sm-9 col-xl-10">
+    <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
       </section>
