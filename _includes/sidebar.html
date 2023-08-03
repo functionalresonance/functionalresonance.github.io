@@ -2,9 +2,9 @@
     <nav class="nav flex-column nav-pills sticky-top" id="menu">
         <a class="nav-link {% if page.name == 'index.md' %}active{% endif %}" href="/index.html">Home</a>
         <a class="nav-link {% if page.name == 'introduction.md' %}active{% endif %}" href="/introduction.html">Introduction</a>
-        <ul class="collapse {% if page.name == 'introduction.md' %}show{% endif %} nav flex-column ms-1" >
+        <ul class="collapse {% if page.name contains 'introduction' %}show{% endif %} nav flex-column ms-1" >
             <li>
-                <a class="nav-link" href="/meaning.html">  Meaning of FRAM</a>
+                <a class="nav-link {% if page.name == 'introduction-meaning.md' %}active{% endif %}" href="/introduction-meaning.html">&emsp;&bullet; Meaning of FRAM</a>
             </li>
         </ul>
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
