@@ -22,6 +22,10 @@ strong {
 .navbar {
   background-color: #800000!important;
 }
+.inner {
+  min-width: 480px;
+  max-width: 800px;
+}
 #header_wrap {
   background: #800000;
 }
