@@ -36,9 +36,9 @@ strong {
   list-style: none;
 }
 .nav-pills {
-  --bs-nav-pills-border-radius:var(--bs-border-radius);
   --bs-nav-pills-link-active-color:#800;
   --bs-nav-pills-link-active-bg:#f2f2f2;
+  border-radius: var(--bs-nav-pills-border-radius) 0 0 var(--bs-nav-pills-border-radius); 
 }
 
 #header_wrap {
