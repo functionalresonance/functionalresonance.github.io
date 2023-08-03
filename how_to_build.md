@@ -11,3 +11,14 @@ The ‘breadth-first’ principle is consistent with the philosophy of the FRAM,
 In consequence of the 'breadth-first' principle, the purpose of the first iteration of the model development is to identify all the functions that are part of the activity, rather than to go into - or get lost in - a description of details.
 
 The 'logic' of the analysis is as follows:
+1. Describe the event, using either an existing description (for instance an event report), a future scenario (for instance a safety case), a proposed change (design specifications, functional specifications) or any other available material.
+2. Try to describe what should happen (meaning work-as-done, not work-as-imagined). This will require data from the daily work place, from people who have expert knowledge about the activity, rather than (post mortem) data from an accident investigation. The description is basically the set of functions that are required for everyday performance to succeed. (See more under 'Finding what goes right'.)
+3. The outcome of Step 2 is the FRAM model. This is the basis for characterising the expected (potential) variability of the activity as carried out in the everyday work environment. (Notice the desparate attempts to avoid the word 'normal'.) The characterisation of this variability also provides the basis for describing the potential couplings.
+4. Use more specific information (e.g., an event or accident analysis, or a safety case scenario) to propose one or more instantiations of the model.
+5. Analyse these instantiations, either to find an explanation why something happened, or a plausible scenario of what may happen (as in risk assessment).
+
+Step 2 is where the FRAM differs from a traditional accident investigation. The purpose of using the FRAM is to develop an understanding of the everyday situation and its variability, as a basis for understanding what went wrong (if it did), rather than to go directly for the 'root' cause.
+
+### Developing a FRAM model: Identifying the functions
+The first step is to identify the functions that are required for everyday performance to succeed, i.e., the functions without which the system could not fulfill its purpose. The breadth-first principle means that it is more important to identify all the functions than to describe some – or all – of them in great detail. Details can always be added – or removed – later.
+
