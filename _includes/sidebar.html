@@ -11,6 +11,11 @@
                     {% assign parent = page.name | remove: ".md" %}
                 {% elsif listpage.name contains page.name | split: "~" | first | remove: ".md" %}
                     <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html"> &bullet; {{ listpage.title }}</a>
+                {% else %}
+                <p>{{ listpage.name }}</p>
+                <p>{{ page.name | remove: ".md" }}</p>
+                <p>{{ page.name | split: "~" | first }}</p>
+                <p>{{ page.name | split: "~" | first | remove: ".md" }}</p>
                 {% endunless %}
             {% endif %}
 
