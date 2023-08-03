@@ -24,32 +24,24 @@
         </header>
     </div>
 
-  <div class="sidebar sticky-top">
-    <div class="sidebar-container">
-      <div class="sidebar-header">
-        <a class="sidebar-brand">Multi Level</a>
-        <a class="sidebar-toggler"><i class="fa fa-bars"></i></a>
-      </div>
-      <div class="sidebar-nav">
-        <nav class="nav flex-column nav-pills">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-          <a class="nav-link" href="#">Link</a>
-          <a class="nav-link" href="#">Link</a>
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </nav>
-        <div class="sidebar-footer">
-          Sidebar Footer
-        </div>
-      </div>
+  <div class="d-flex">
+    <div class="col-12 col-sm-3 col-xl-2">
+      <nav class="nav flex-column nav-pills sticky-top">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </nav>
     </div>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer col-12 col-sm-9 col-xl-10">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
   </div>
 
-      <!-- MAIN CONTENT -->
-      <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-          {{ content }}
-        </section>
-      </div>
 
 
     <!-- FOOTER  -->
