@@ -22,10 +22,25 @@ strong {
 .fram_nav {
   background-color: #800000;
 }
-.inner {
-  min-width: 480px;
-  max-width: 800px;
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #fff;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
+.nav-pills {
+  --bs-nav-pills-border-radius:var(--bs-border-radius);
+  --bs-nav-pills-link-active-color:#800;
+  --bs-nav-pills-link-active-bg:#f2f2f2;
+}
+
 #header_wrap {
   background: #800000;
 }
@@ -34,4 +49,8 @@ strong {
 }
 #main_content {
   padding-top: 10px;
+}
+#main_content .inner {
+  min-width: 480px;
+  max-width: 800px;
 }

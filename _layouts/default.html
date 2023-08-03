@@ -24,10 +24,10 @@
         </header>
     </div>
 
-  <div class="d-flex fram_nav">
-    <div class="col-12 col-sm-3 col-xl-2">
-      <nav class="nav flex-column nav-pills sticky-top" id="menu">
-              <a class="nav-link {% if page.name == 'index.md' %}active{% endif %}" href="/index.html">Home</a>
+    <div class="d-flex fram_nav">
+      <div class="col-12 col-sm-3 col-xl-2">
+        <nav class="nav flex-column nav-pills sticky-top" id="menu">
+            <a class="nav-link {% if page.name == 'index.md' %}active{% endif %}" href="/index.html">Home</a>
             <a href="#submenu1" data-bs-toggle="collapse" class="nav-link">
               <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
             <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
@@ -47,18 +47,15 @@
               <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
             <a class="nav-link {% if page.name == 'introduction.md' %}active{% endif %}" href="/introduction.html">introduction</a>
-      </nav>
+        </nav>
+      </div>
+      <!-- MAIN CONTENT -->
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+          {{ content }}
+        </section>
+      </div>
     </div>
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
-    </div>
-
-  </div>
-
-
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
