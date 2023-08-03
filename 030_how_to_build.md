@@ -1,3 +1,7 @@
+---
+title: How to Build a FRAM model
+---
+
 ## This page describes how a FRAM model is built, and how it can be used for either event analysis or risk asssessment
 
 ### Method-sine-model

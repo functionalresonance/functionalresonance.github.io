@@ -25,10 +25,20 @@
         </ul>
 
         {% for listpage in site.pages %}
-            <p>{{ listpage.name }}</p>
+
             {% if listpage.name contains ".md" %}
-                <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html">{{ listpage.name }}</a>
+                {% unless listpage.name contains "-" %}
+                    <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html">{{ listpage.title }}</a>
+                {% else %}
+                    <ul class="collapse {% if page.name contains {{ listpage.name | split: '-' | first | slice: 4, size | remove: '.md' }} %}show{% endif %} nav flex-column ms-1" >
+                        <li>
+                            <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html"> &bullet; {{ listpage.title }}</a>
+                        </li>
+                    </ul>
+                {% endunless %}
             {% endif %}
+            
+
         {% endfor %}
 
     </nav>

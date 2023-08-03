@@ -1,3 +1,7 @@
+---
+title: Prospective analysis
+---
+
 ## How to use the FRAM to look for potential risks (prospective)
 
 ### Prospective analysis as commonly practiced

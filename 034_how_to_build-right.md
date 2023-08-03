@@ -1,3 +1,7 @@
+---
+title: Finding what goes Right
+---
+
 ## Finding what goes right
 When faced with the prospect of finding at what goes right, the task is daunting, You may, of course, simply begin by looking at what others do every day – or even better, pay attention to what you do yourself. Although unfamiliar for most, it is actually not so difficult to do so once you stop looking for ‘errors’ and instead look for the basic types of performance adjustments: adjustments to create and/or maintain required working conditions, adjustments to compensate for something that may be missing (time, information, tools, materials, etc.), and finally adjustments to avoid changes and/or conditions that may be harmful or make it impossible to carry out the work.
 

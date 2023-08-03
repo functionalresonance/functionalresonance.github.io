@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 ## FRAM - the FUNCTIONAL RESONANCE ANALYSIS METHOD
 ### for modelling non-trivial socio-technical systems
 

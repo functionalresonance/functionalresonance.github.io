@@ -1,3 +1,7 @@
+---
+title: Meaning of FRAM
+---
+
 ## The Meaning of FRAM
 
 In the first presentations of FRAM, the acronym was used to mean Functional Resonance Accident Model.

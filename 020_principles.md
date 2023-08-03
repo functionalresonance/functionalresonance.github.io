@@ -1,3 +1,7 @@
+---
+title: Basic Principles
+---
+
 ## The Four Basic Principles of the FRAM
 
 ### The Principle of Equivalence of Successes and Failures
