@@ -31,7 +31,11 @@
       <nav>
         <ul class="nav flex-column nav-pills sticky-top">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            {% if page.name == "index.md" %}
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            {% else %}
+              <a class="nav-link active" href="/index.html">Home</a>
+            {% endif %}
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
@@ -43,9 +47,11 @@
               <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/introduction.html">Introduction</a>
-          </li>
+          {% if page.name == "introduction.md" %}
+            <a class="nav-link active" aria-current="page" href="/introduction.html">Home</a>
+          {% else %}
+            <a class="nav-link active" href="/introduction.html">Home</a>
+          {% endif %}
           <li class="nav-item">
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
