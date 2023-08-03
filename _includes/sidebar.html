@@ -2,22 +2,25 @@
     <nav class="nav flex-column nav-pills sticky-top" id="menu">
 
         <a class="nav-link {% if page.name == 'index.md' %}active{% endif %}" href="/index.html">Home</a>
+        <ul class="collapse nav flex-column ms-1" >
 
         {% for listpage in site.pages %}
 
             {% if listpage.name contains ".md" and listpage.name != 'index.md' %}
-                {% unless listpage.name contains "-" %}
-                    <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html">{{ listpage.title }}</a>
+                {% unless listpage.name contains "~" %}
+        </ul>
+        <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html">{{ listpage.title }}</a>
+        <ul class="collapse {% if page.name contains listpage.name | split: '~' | first %}show{% endif %} nav flex-column ms-1" >
                 {% else %}
-                    <ul class="collapse {% if page.name contains listpage.name | split: '-' | first %}show{% endif %} nav flex-column ms-1" >
-                        <li>
-                            <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html"> &bullet; {{ listpage.title }}</a>
-                        </li>
-                    </ul>
+            <li>
+                <a class="nav-link {% if page.name == listpage.name %}active{% endif %}" href="/{{ listpage.name | remove: '.md' }}.html"> &bullet; {{ listpage.title }}</a>
+            </li>
                 {% endunless %}
             {% endif %}
 
         {% endfor %}
+        
+        </ul>
 
     </nav>
 </div>

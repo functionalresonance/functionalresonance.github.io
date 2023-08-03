@@ -51,8 +51,8 @@ It is not strictly necessary to characterise the potential variabillity for desi
 
 ### The following steps
 Although the basic procedure is the same regardless of whether the analysis is retrospective or prospective, it nevertheless makes sense to describe the second part of the method for each purpose separately. There are three main purposes for which a FRAM model can be used:
-- [Using a FRAM model for retrospective analysis](/03_how_to_build-01_retro.html)
-- [Using a FRAM model for prospective analysis](/03_how_to_build-02_pro.html)
-- [Using a FRAM model as the basis for system design/redesign](/03_how_to_build-03_design.html)
+- [Using a FRAM model for retrospective analysis](/03_how_to_build~01_retro.html)
+- [Using a FRAM model for prospective analysis](/03_how_to_build~02_pro.html)
+- [Using a FRAM model as the basis for system design/redesign](/03_how_to_build~03_design.html)
 
 A more extensive discussion of its use is set out in the manual available here
