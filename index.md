@@ -21,6 +21,4 @@ title: Home
 
 **FRAM** does not imply that events happen in a specific way, or that any predefined components, entities, or relations must be part of the description. Instead it focuses on describing what happens in terms of the functions involved. These are derived from what is necessary to achieve an aim or perform an activity, hence from a description of work-as-done rather than work-as-imagined. But functions are not defined a priori nor necessarily ordered in a predefined way such as hierarchy. Instead they are described individually, and the relations between them are defined by empirically established functional dependencies.
 
-![FRAM book cover](/assets/images/FRAM_book1.png)
-![FRAM book cover (Japenese)](/assets/images/FRAM_book2.png)
-![FRAM book cover (Korean)](/assets/images/FRAM_book3.png)
+|![FRAM book cover](/assets/images/FRAM_book1.png)|![FRAM book cover (Japenese)](/assets/images/FRAM_book2.png)|![FRAM book cover (Korean)](/assets/images/FRAM_book3.png)|
