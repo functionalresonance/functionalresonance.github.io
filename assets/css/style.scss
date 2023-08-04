@@ -10,6 +10,9 @@ strong {
   color: #800000;
   font-size: larger;
 }
+table, th, td {
+   border: none;
+}
 .inline_header {
   display: flex;
   vertical-align: middle;
