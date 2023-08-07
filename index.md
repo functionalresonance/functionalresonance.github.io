@@ -13,11 +13,11 @@ title: Home
 
 **THE FRAM** is a method to analyse how work activities take place either retrospectively or prospectively. This is done by **analysing** work activities in order to produce a **model** or representation of how work is done. This model can then be used for specific types of analysis, whether to determine how something went wrong, to look for possible bottlenecks or hazards, to check the feasibility of proposed solutions or interventions, or simply to understand how an activity (or a service) takes place. The FRAM is a method for modelling non-trivial socio-technical systems. It is **NOT** a risk assessment method and it is not an accident analysis method. Neither is a FRAM model a flow model, a network model, or a graph. But the model produced by a FRAM analysis can serve as the basis for a risk analysis, an event investigation, or for something entirely different.
 
-- The FRAM is based on **Four Principles**:
-  - the equivalence of failures and successes,  
-  - the central role of approximate adjustments,  
-  - the reality of emergence,  
-  - and functional resonance as a complement to causality.
+The FRAM is based on **Four Principles**:
+- the equivalence of failures and successes,  
+- the central role of approximate adjustments,  
+- the reality of emergence,  
+- and functional resonance as a complement to causality.
 
 **FRAM** does not imply that events happen in a specific way, or that any predefined components, entities, or relations must be part of the description. Instead it focuses on describing what happens in terms of the functions involved. These are derived from what is necessary to achieve an aim or perform an activity, hence from a description of work-as-done rather than work-as-imagined. But functions are not defined a priori nor necessarily ordered in a predefined way such as hierarchy. Instead they are described individually, and the relations between them are defined by empirically established functional dependencies.
 
